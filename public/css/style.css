@@ -1,0 +1,86 @@
+#nav-header {
+height:200px;
+background-image: url("../images/codingbg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-size:32px;
+color:white;
+text-align: center;
+
+background-color: blue;
+}
+
+body {
+    color:#00408b;   
+    background-color:whitesmoke
+}
+
+form {
+    display: table
+}
+
+label, input {
+    display:table-cell;
+    width:150px;
+}
+
+#article-full, #article-comments {
+max-height:300px;
+overflow:auto;
+}
+
+.article-thumb {
+height:200px;
+width:250px;
+margin-bottom:10px;
+}
+
+.article-thumb:hover {
+border:5px solid yellow
+}
+
+article-thumb:active {
+    border:5px solid yellow
+}
+
+#article-thumb{
+max-height:450px;
+overflow: scroll
+}
+
+.card-body {
+padding-top:5px;
+}
+
+.card-footer, .modal-footer {
+background-color: #cf0900;
+color:white;
+}
+
+.card-header, .modal-header {
+    background-color: #00408b; 
+    color:white
+    }
+
+.comment:hover {
+color:#00408b; 
+font-size:24px;
+}   
+
+.like:hover {
+    color:#00408b; 
+    font-size:28px;
+    }  
+
+.remove-comment {
+    color:#cf0900;
+}
+
+.modal-close {
+    background-color:#00408b; 
+    color:white
+
+}
+
+
+
